@@ -15,6 +15,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.framework.messagin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.framework-playground.contracts", "..\playground\ftrip.io.playground\ftrip.io.framework-playground.contracts\ftrip.io.framework-playground.contracts.csproj", "{83E84289-E227-46F5-9D9A-39A62A0ADD10}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.booking-service", "..\booking-service\ftrip.io.booking-service\ftrip.io.booking-service\ftrip.io.booking-service.csproj", "{0B275889-B3E0-4BD1-A002-820C1EDDE261}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.booking-service.contracts", "..\booking-service\ftrip.io.booking-service\ftrip.io.booking-service.contracts\ftrip.io.booking-service.contracts.csproj", "{030DCC94-37F1-4CA0-9C3B-A6559ACF7B57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.catalog-service", "..\catalog-service\ftrip.io.catalog-service\ftrip.io.catalog-service\ftrip.io.catalog-service.csproj", "{39A0D716-472C-496F-A2AA-0B020835F4B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.catalog-service.contracts", "..\catalog-service\ftrip.io.catalog-service\ftrip.io.catalog-service.contracts\ftrip.io.catalog-service.contracts.csproj", "{737AC5C6-7692-4D2C-A4BF-7546F9C63E9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.notification-service", "..\notification-service\ftrip.io.notification-service\ftrip.io.notification-service\ftrip.io.notification-service.csproj", "{FE84C251-A530-46CB-B403-C59E66638DB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.notification-service.contracts", "..\notification-service\ftrip.io.notification-service\ftrip.io.notification-service.contracts\ftrip.io.notification-service.contracts.csproj", "{89BD0B0F-95C4-4557-84B9-DEAC9BB3146F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.user-service", "..\user-service\ftrip.io.user-service\ftrip.io.user-service\ftrip.io.user-service.csproj", "{BFED638A-0E83-4F32-AC86-567619753E72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.ip.user-service.contracts", "..\user-service\ftrip.io.user-service\ftrip.ip.user-service.contracts\ftrip.ip.user-service.contracts.csproj", "{7FC7D417-2990-4566-B7AD-785EAC383DAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +61,38 @@ Global
 		{83E84289-E227-46F5-9D9A-39A62A0ADD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E84289-E227-46F5-9D9A-39A62A0ADD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E84289-E227-46F5-9D9A-39A62A0ADD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B275889-B3E0-4BD1-A002-820C1EDDE261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B275889-B3E0-4BD1-A002-820C1EDDE261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B275889-B3E0-4BD1-A002-820C1EDDE261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B275889-B3E0-4BD1-A002-820C1EDDE261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030DCC94-37F1-4CA0-9C3B-A6559ACF7B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030DCC94-37F1-4CA0-9C3B-A6559ACF7B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030DCC94-37F1-4CA0-9C3B-A6559ACF7B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030DCC94-37F1-4CA0-9C3B-A6559ACF7B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A0D716-472C-496F-A2AA-0B020835F4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A0D716-472C-496F-A2AA-0B020835F4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A0D716-472C-496F-A2AA-0B020835F4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A0D716-472C-496F-A2AA-0B020835F4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737AC5C6-7692-4D2C-A4BF-7546F9C63E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737AC5C6-7692-4D2C-A4BF-7546F9C63E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737AC5C6-7692-4D2C-A4BF-7546F9C63E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737AC5C6-7692-4D2C-A4BF-7546F9C63E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE84C251-A530-46CB-B403-C59E66638DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE84C251-A530-46CB-B403-C59E66638DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE84C251-A530-46CB-B403-C59E66638DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE84C251-A530-46CB-B403-C59E66638DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BD0B0F-95C4-4557-84B9-DEAC9BB3146F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BD0B0F-95C4-4557-84B9-DEAC9BB3146F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BD0B0F-95C4-4557-84B9-DEAC9BB3146F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BD0B0F-95C4-4557-84B9-DEAC9BB3146F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFED638A-0E83-4F32-AC86-567619753E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFED638A-0E83-4F32-AC86-567619753E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFED638A-0E83-4F32-AC86-567619753E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFED638A-0E83-4F32-AC86-567619753E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC7D417-2990-4566-B7AD-785EAC383DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC7D417-2990-4566-B7AD-785EAC383DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC7D417-2990-4566-B7AD-785EAC383DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC7D417-2990-4566-B7AD-785EAC383DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
