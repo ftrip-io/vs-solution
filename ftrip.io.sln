@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.ip.user-service.contr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.framework-playground.unit-tests", "..\playground\ftrip.io.playground\ftrip.io.framework-playground.unit-tests\ftrip.io.framework-playground.unit-tests.csproj", "{36EE8CDD-AA1D-4B9A-8355-5187097FE808}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.user-service.unit-tests", "..\user-service\ftrip.io.user-service\ftrip.io.user-service.unit-tests\ftrip.io.user-service.unit-tests.csproj", "{9B14A4DE-D131-4B4F-896B-D69E9DFB5236}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{36EE8CDD-AA1D-4B9A-8355-5187097FE808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36EE8CDD-AA1D-4B9A-8355-5187097FE808}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36EE8CDD-AA1D-4B9A-8355-5187097FE808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B14A4DE-D131-4B4F-896B-D69E9DFB5236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B14A4DE-D131-4B4F-896B-D69E9DFB5236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B14A4DE-D131-4B4F-896B-D69E9DFB5236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B14A4DE-D131-4B4F-896B-D69E9DFB5236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
