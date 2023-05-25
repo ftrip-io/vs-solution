@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.framework.email", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.user-service.integration-tests", "..\user-service\ftrip.io.user-service\ftrip.io.user-service.integration-tests\ftrip.io.user-service.integration-tests.csproj", "{7625BEAA-DE41-4DE5-9F85-9808F4528AB7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftrip.io.framework-playground.integration-tests", "..\playground\ftrip.io.playground\ftrip.io.framework-playground.integration-tests\ftrip.io.framework-playground.integration-tests.csproj", "{16859D78-BDE1-49BE-B109-FC9C2810C55D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{7625BEAA-DE41-4DE5-9F85-9808F4528AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7625BEAA-DE41-4DE5-9F85-9808F4528AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7625BEAA-DE41-4DE5-9F85-9808F4528AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16859D78-BDE1-49BE-B109-FC9C2810C55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16859D78-BDE1-49BE-B109-FC9C2810C55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16859D78-BDE1-49BE-B109-FC9C2810C55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16859D78-BDE1-49BE-B109-FC9C2810C55D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
